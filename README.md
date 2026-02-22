@@ -1,11 +1,11 @@
 ## DevOps Coding Test
 
 ### Instructions
-- The repo contains a working Node.js API + Redis setup, and basic prebuilt config files (to be improved on).
+- The repo contains a working Node.js API + Redis setup, and basic prebuilt configuration files (to be improved on).
     - Improve the system to be **reliable**, **secure**, and **maintainable**.
     - You may modify existing files and add new ones.
 - Deliver solutions as **code, configuration, documentation, and scripts only**.
-- **All infrastructure, monitoring, logging, and testing must be added by you** — no files are prebuilt. Preference for use of Prometheus and (Playwright or Cypress)
+- **All (1) monitoring, (2) logging, and (3) testing must be added by you** — no files are prebuilt. Preference for use of Prometheus, Playwright.
 
 ### Main Requirements
 
