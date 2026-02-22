@@ -1,41 +1,33 @@
-### DevOps Coding Test – System Improvement Exercise
+## DevOps Coding Test
 
 ### Instructions
+- The repo contains a working Node.js API + Redis setup, and basic prebuilt config files (to be improved on).
+    - Improve the system to be **reliable**, **secure**, and **maintainable**.
+    - You may modify existing files and add new ones.
+- Deliver solutions as **code, configuration, documentation, and scripts only**.
+- **All infrastructure, monitoring, logging, and testing must be added by you** — no files are prebuilt. Preference for use of Prometheus and (Playwright or Cypress)
 
-* The repo contains a working Node.js API + Redis setup.
-* Your task is to work directly on the system to make it more **reliable, secure, and maintainable**.
-* You may edit existing files or add new ones.
-* Focus on practical improvements that you would do in a real-world environment.
-* All answers should be code, configuration, or scripts — no verbal explanations are required.
+### Main Requirements
 
-### Challenges / Open-Ended Coding Tasks
-Containers and Builds
-* Consider how the system is packaged and built.
-* How could it be made smaller, faster, or safer to run in different environments?
-* Think about how configuration and secrets are handled at runtime.
+The improved system should:
 
-Service Coordination
-* Consider how the API and Redis interact.
-* How could the system respond automatically if a service fails or is unavailable?
-* What mechanisms might ensure services start and remain healthy in production?
+#### 1. Setup & Configuration
+- Run consistently across **environments** without **manual setup**.
+- Provide a **reproducible setup** for a new developer.
+- Keep **sensitive information** out of **source control**.
+- Use a clear **configuration strategy** across environments.
+- Support **multiple instances** safely.
+- Remain **simple to understand and operate**.
 
-Secrets and Configuration
-* Consider how sensitive information is managed.
-* How might secrets be injected safely without exposing them in source control?
-* How could the system support different environments while keeping secrets secure?
+#### 2. Reliability & Observability
+- Start successfully even when **dependencies** are unavailable.
+- **Detect failures** and **recover automatically** where possible.
+- Provide a way to verify **system health**.
+- Include **monitoring and metrics** for system performance and reliability.
+- Include **centralized logging** for troubleshooting and observability.
+- Allow **failure simulation** to verify **resilience**.
 
-Deployment and Resilience
-* Look at how the system runs in a clustered environment.
-* How could it recover from failures, handle traffic changes, or roll out updates safely?
-* Consider what monitoring or checks would make the deployment more robust.
-
-Automation and Continuous Integration
-* Consider how changes are built, tested, and deployed automatically.
-* How could a pipeline detect problems early?
-* How might automation help maintain reliability and security as the system evolves?
-
-Fault Tolerance Exploration
-* Imagine key components fail unexpectedly.
-* How could the system detect and recover automatically?
-* How might you test or simulate these scenarios to verify behavior?# devops-test
-# devops-test
+#### 3. Automation & Safety
+- Allow **safe updates** with **minimal disruption**.
+- Include **automated tests** for key system functionality.
+- **Validate changes automatically** before **release**.
