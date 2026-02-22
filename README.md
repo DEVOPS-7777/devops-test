@@ -3,7 +3,8 @@
 ### Instructions
 - The repo contains a working **Node.js API + Redis** setup with **basic prebuilt configuration files** (for you to improve).  
   - Your goal is to make the system **reliable**, **secure**, and **maintainable**.  
-  - You may modify existing files or add new ones.  
+  - You may modify existing files or add new ones.
+  - No AI allowed.
 - Deliverables should be **code, configuration, documentation, and scripts only**.
   - Github Actions and potentially AWS configuration will be required, as per permissions given by the test coordinator.
   - Other deliverables are as per the Main requirements specification below.
