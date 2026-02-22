@@ -1,0 +1,7 @@
+{
+  "name": "devops-interview",
+  "dependencies": {
+    "express": "^4",
+    "ioredis": "^5"
+  }
+}

@@ -1,0 +1,21 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build docker
+        run: docker build -t devops-interview .
+
+      - name: Run container
+        run: |
+          docker run -d -p 3000:3000 devops-interview
+          sleep 5
+          curl -f http://localhost:3000/health

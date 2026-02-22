@@ -38,3 +38,4 @@ Fault Tolerance Exploration
 * Imagine key components fail unexpectedly.
 * How could the system detect and recover automatically?
 * How might you test or simulate these scenarios to verify behavior?# devops-test
+# devops-test
