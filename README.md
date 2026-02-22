@@ -19,9 +19,9 @@ Think about general principles of CI/CD, version control, collaboration, contain
 The improved system should meet the following:
 
 #### 1. Setup & Configuration
-- Run consistently across **environments** without **manual setup**.  
-- Provide a **reproducible setup** for a new developer.  
-- Keep **sensitive information** out of **source control**.  
+- Run consistently across **environments** without manual setup.  
+- Provide a reproducible setup for a new developer with **documentation**.  
+- Keep **sensitive information** out of source control.  
 - Implement a clear **configuration strategy** for multiple environments.  
 - Support **multiple instances** safely and reliably.  
 
