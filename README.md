@@ -4,8 +4,10 @@
 - The repo contains a working **Node.js API + Redis** setup with **basic prebuilt configuration files** (for you to improve).  
   - Your goal is to make the system **reliable**, **secure**, and **maintainable**.  
   - You may modify existing files or add new ones.  
-- Deliverables should be **code, configuration, documentation, and scripts only**.  
-- **All monitoring, logging, and testing must be added by you** — no prebuilt files.  
+- Deliverables should be **code, configuration, documentation, and scripts only**.
+  - Github Actions and potentially AWS configuration will be required, as per permissions given by the test coordinator.
+  - Other deliverables are as per the Main requirements specification below.
+- **All monitoring, logging, and testing are added by you** — no prebuilt files.  
   - Preference for using **Prometheus** for monitoring and **Playwright or Cypress** for testing, though other tools are acceptable if justified.
 
 
