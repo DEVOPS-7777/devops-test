@@ -18,12 +18,12 @@ Think about general principles of CI/CD, version control, collaboration, contain
 
 The improved system should meet the following:
 
-#### 1. Setup & Configuration
-- Run consistently across **environments** without manual setup.  
-- Provide a reproducible setup for a new developer with **documentation**.  
-- Keep **sensitive information** out of source control.  
-- Implement a clear **configuration strategy** for multiple environments.  
-- Support **multiple instances** safely and reliably.  
+#### 1. Setup & Configuration 
+- Implement a consistent **environment configuration strategy** that supports development, staging, and production using environment variables, structured configuration, and secure secret management.
+  - Keep **sensitive information** out of source control.
+  - Run consistently across **environments** without manual setup. 
+- Support **multiple instances** safely and reliably, considering the semi-stateful on node redis db.
+- Provide a reproducible setup for a new developer with **documentation**.
 
 #### 2. Reliability & Observability
 - Start successfully even when **dependencies** are temporarily unavailable.  
