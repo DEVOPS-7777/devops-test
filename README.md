@@ -26,12 +26,12 @@ The improved system should meet the following:
 - Provide a reproducible setup for a new developer with **documentation**.
 
 #### 2. Reliability & Observability
-- Start successfully even when **dependencies** are temporarily unavailable.  
 - **Detect failures** and **recover automatically** where possible.  
-- Provide a clear way to verify **system health**.  
+  - Provide a clear way to verify **system health**.
+  - Start successfully even when **dependencies** are temporarily unavailable.
+  - Allow **failure simulation** to verify **resilience**. 
 - Include **monitoring and metrics** for performance and reliability.  
 - Include **centralized logging** for troubleshooting and observability.  
-- Allow **failure simulation** to verify **resilience**.  
 
 #### 3. Automation & Safety
 - Allow **safe updates** with **minimal disruption**.  
